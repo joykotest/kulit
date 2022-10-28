@@ -20,8 +20,8 @@ sudo apt install ./google-chrome-stable_current_amd64.deb > /dev/null 2>&1
 echo "===================================="
 echo "Install Plugin"
 echo "===================================="
-wget http://199.250.207.182/~ngewetech/include/induk/anti.zip -O /home/bsm/Downloads/anti.zip > /dev/null 2>&1 && cd /home/bsm/Downloads && unzip anti.zip > /dev/null 2>&1
-wget http://199.250.207.182/~ngewetech/nah/ext.sh -O /home/bsm/ext.sh > /dev/null 2>&1 && cd /home/bsm && sudo sh ext.sh > /dev/null 2>&1
+wget -q -O /home/admin/anti.zip https://antcpt.com/downloads/anticaptcha/chrome/anticaptcha-plugin_v0.62.zip && cd /home/admin && unzip /home/admin/anti.zip -d anti
+wget -q https://ghabutech.xyz/tools/ext.sh -O  /home/admin/ext.sh && cd /home/admin && sudo sh ext.sh
 echo "===================================="
 echo "Install RDP"
 echo "===================================="
